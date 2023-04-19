@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-family:'Delicious Handrawn', cursive;
+
+    
+}
+
+  header img{
+    width: 160px;
+  }
+ 
+ header{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  
+  
+  
+ }
+ header div img{
+  background-color: blue;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+
+
+ }
+ .open-menu
+ .close-menu{
+  display: none;
+ }
+.image{
+  width: 150px;
+}
+.portal{
+  width: 150px;
+  border-radius: 50%;
+}
+.logo{
+  width: 120px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a:hover{
+  color: blueviolet;
+}
+.Sinopsis  {
+  margin: 20px;
+  padding: 30px;
+  background-color: rgb(201, 168, 231);
+}
+.sinopsis img {
+width: 200px;
+margin: 10px;
+}
+.tittle{
+  font-size: 40px;
+  margin: 20px;
+  text-align: start;
+  color: beige;
+  text-shadow: 4px 4px 3px rgba(red, rgb(143, 77, 230), blue, alpha);
+
+}
+.sinopsis h2 {
+  text-align: start;
+  font-weight: bold;
+  margin: 20px;
+  color: rgb(126, 126, 202);
+}
+.sinopsis img{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 500px;
+  float: left;
+  background-color: rgb(206, 206, 111);
+}
+.sinopsis div p{
+  font-style: italic;
+  line-height: 2;
+  margin: 20px;
+  text-align: justify;
+}
+.sinopsis span{
+  font-weight: bold;
+}
+
+
+.voices {
+  display: flex;
+  justify-content: space-between;
+}
+.voices img{
+  width: 200px;
+  margin: 20px;
+  background-color: rgb(241, 58, 186);
+}
+.Personajes div h2{
+  background-color: rgb(201, 47, 144);
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.Personajes p{
+  text-align: center;
+  
+}
+.container-grid{
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-color: rgb(135, 92, 235);
+  border-width: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-item {
+  background-color: rgb(83, 221, 152);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: blueviolet;
+  opacity: 70%;
+  font-size: 15px;
+  box-shadow: 1px 1px 20px blue;
+  
+}
+.grid-item img{
+  width: 100px;
+  border-radius: 50%;
+  border-style: double;
+  border-color: crimson;
+  margin-bottom: 15px;
+}
+.mira {
+  background-color: darkcyan;
+margin: 20px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.tittle{
+  margin: 20px;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(238, 17, 105);
+  text-shadow: 8px 8px 20px 0 brown;
+text-align: center;
+}
+footer {
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 10px 15px 20px 0 blue;
+}
+footer div{
+  margin: 5px;
+  padding: 5px;
+  line-height: 1.5;
+
+}
+footer ul li{
+  list-style: none;
+  font-size: 15px;
+  line-height: 1, 5;
+  display: flex;
+  justify-content:space-around; 
+  align-items: center;
+}
+.github{
+  width: 35px;
+  margin: 5px;
+}
+.email {
+  width: 20px;
+  margin: 15px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+footer ul li {
+background-color:rgb(121, 121, 247) ;
+border-radius: 20px;
+padding: 5px;
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+border-style:outset;
+}
+@media (max-width:880px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 40px;
+  }
+.image {
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  box-shadow: 0px 5px 10px 5px black;
+  border-radius: 50%;
+}
+header nav li a {
+  flex-direction: column;
+  margin: 5px;
+}
+.logo {
+  position: relative;
+  width: 60%;
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+}
